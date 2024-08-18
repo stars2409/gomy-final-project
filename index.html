@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Form Section -->
+    <section id="form-section">
+        <div class="form-container">
+            <h2>Welcome!<br>Please Enter Your Details</h2>
+            <form id="access-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section id="main-content" style="display:none;">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="image.png" alt="Logo" style="width: 50px; height: 50px;">
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#" style="color: #002b5b;font-weight: bold;">Home</a></li>
+                        <li><a href="#" style="color: #002b5b;font-weight: bold;">About</a></li>
+                        <li><a href="#" style="color: #002b5b;font-weight: bold;">Services</a></li>
+                        <li><a href="#" style="color: #002b5b;font-weight: bold;">Contact</a></li>
+                    </ul>
+                    <div class="auth-buttons">
+                        <button>Sign up to enroll</button>
+                    </div>
+                </div>
+               
+            </nav>
+        </header>
+        
+        <div class="hero-section">
+            <div class="hero-text">
+                <h1 style="color: #002b5b;">Codewave Summer <br>Boot Camp</h1>
+                <p style="color: #002b5b; font-weight: bold;">Thank you for your interest in our program! Here’s what you can expect:</p>
+                <ul>
+                    <li style="color: #002b5b;"><strong>Hands-On Learning:</strong>
+                        <p style="color: #002b5b;">Engage in practical projects to build real-world skills.</p>
+                    </li>
+                    <li style="color: #002b5b;"> <strong>Expert Mentors:</strong>
+                        <p style="color: #002b5b;">Learn from industry professionals with years of experience.</p>
+                    </li>
+                    <li style="color: #002b5b;"><strong>Networking Opportunities:</strong> 
+                        <p style="color: #002b5b;">Connect with peers and potential employers.</p>
+                    </li>
+                    <li style="color: #002b5b;"><strong>Job Placement Assistance: </strong>
+                        <p style="color: #002b5b;">Get support in finding the right job after graduation.</p>
+                    </li>
+                </ul>
+                <p style="font-weight: bold; color: #002b5b;"> Our boot camp covers a wide range of topics including:</p>
+                <ul class="circle">
+                    <li style="color: #002b5b;">Web Development (HTML, CSS, JavaScript)</li>
+                    <li style="color: #002b5b;">Data Science and Machine Learning</li>
+                    <li style="color: #002b5b;">Cloud Computing</li>
+                    <li style="color: #002b5b;">Cybersecurity</li>
+                    <li style="color: #002b5b;">Mobile App Development</li>
+                </ul>
+                <p style="color: #002b5b;">Ready to take the next step in your tech career? Enroll today and start your journey!</p>
+                <p style="color: #002b5b;"> <strong>For more enquiries contact <br> +234 704 1878 522 <br> +234 567 8957 000</p>
+                </strong>
+                <form>
+                    <input type="email" placeholder="Email address">
+                    <input type="text" placeholder="Last name">
+                    <input type="text" placeholder="First name">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="hero-image">
+                <img src="hero img.jpg" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
